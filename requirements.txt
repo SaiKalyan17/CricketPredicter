@@ -1,0 +1,7 @@
+streamlit>=1.35
+ephem>=4.1
+pandas>=2.0
+numpy>=1.26
+plotly>=5.20
+tzdata
+pytest>=8.0

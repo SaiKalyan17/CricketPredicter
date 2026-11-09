@@ -1,0 +1,12 @@
+# >>> ra-plugin (managed; do not edit between markers) >>>
+# Ra runtime state — deny most of .ra/ by default; allowlist tracked artifacts.
+.ra/*
+!.ra/README.md
+!.ra/cache/
+.ra/cache/*
+!.ra/cache/jira-metadata.json
+!.ra/context/
+!.ra/overlays.json
+!.ra/plugins/
+!.ra/workflows/
+# <<< ra-plugin <<<

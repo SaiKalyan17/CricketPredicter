@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *ra-state.mjs:*)",
+      "Bash(node *promote-keeps.mjs:*)",
+      "Bash(node *overlay-scan.mjs:*)",
+      "Bash(node *overlay-list.mjs:*)",
+      "Bash(node *ra-review-config.mjs:*)",
+      "Bash(node *ra-test-config.mjs:*)",
+      "Bash(node *scan-insights.mjs:*)",
+      "Bash(node *feature-lock.mjs:*)",
+      "Bash(node *write-artifact.mjs:*)",
+      "Bash(node *coverage-precheck.mjs:*)",
+      "Bash(node *dry-precheck.mjs:*)",
+      "Bash(node *style-precheck.mjs:*)",
+      "Bash(node *ra-design-config.mjs:*)",
+      "Bash(node *security-scan.mjs:*)",
+      "Bash(node *check.mjs:*)",
+      "Bash(node *test.mjs:*)",
+      "Bash(npm run check*)",
+      "Bash(npm test:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "mcp__atlassian__jira_get_issue",
+      "mcp__atlassian__jira_search",
+      "mcp__atlassian__jira_search_fields",
+      "mcp__atlassian__jira_get_field_options",
+      "mcp__atlassian__jira_get_transitions",
+      "mcp__atlassian__jira_get_link_types",
+      "mcp__atlassian__jira_get_sprint_issues",
+      "mcp__atlassian__jira_get_sprints_from_board",
+      "mcp__atlassian__jira_get_agile_boards",
+      "mcp__atlassian__jira_get_project_issues",
+      "mcp__atlassian__jira_get_user_profile",
+      "mcp__atlassian__confluence_search",
+      "mcp__atlassian__confluence_get_page",
+      "mcp__atlassian__confluence_get_page_children",
+      "mcp__atlassian__confluence_get_comments",
+      "mcp__atlassian__confluence_get_labels",
+      "mcp__atlassian__confluence_get_attachments",
+      "mcp__Alexandria__search_alexandria_docs",
+      "mcp__Alexandria__get_alexandria_doc"
+    ]
+  },
+  "env": {
+    "CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH": "2"
+  }
+}
